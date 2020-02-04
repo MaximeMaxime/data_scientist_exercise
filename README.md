@@ -24,7 +24,7 @@ We encourage you to present the results using a **notebook**. At the very least,
 <br></br>
 <br></br>
 
-## Exercise 1.  Crime Dataset (Regression)
+## Exercise 1.  Crime Dataset
 The Crime Dataset contains **socio-economic features** from the US 1990 Census. The target is the crime rate per community.
 
 Ref. : https://archive.ics.uci.edu/ml/machine-learning-databases/communities/communities.names
@@ -36,7 +36,7 @@ Using the **crime_prep.csv** file :
 <br></br>
 <br></br>
 
-## Exercise 2 : Fraudulent Transactions (Classification)
+## Exercise 2 : Fraudulent Transactions
 The file **fraud_prep.csv** contains credit card transactions. 
 1. Explore your data.
 1. Prepare your data (preprocessing, feature engineering, feature selection, dimensionality reduction, feature learning, ...)
