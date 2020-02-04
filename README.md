@@ -1,51 +1,51 @@
 # Scripting Exercices
 
-Below is a data mining and scripting exercise. Note that we will use it to evaluate : 
- 1. problem solving skills.
- 1. machine learning skills; and,
- 1. programming skills;
+Below is a data mining and scripting exercise. Note that we will use it to evaluate primarily : 
+ 1. problem solving skills,
+ 1. data science / machine learning skills,
+ 1. programming skills.
 <br></br>
 
 **To Do :**
-1. Follow the instructions below while maintaining a presentable (clean) script. Ideally we ask that you 
-make your script available on your own github.com account.  
-1. Send us the link to your final commit before 9am the day of your interview
-1. During the interview, we will ask that you present your work (exploration, preprocessing, model training, performance assessment, results & discussion).
-We encourage you to present the results using a **notebook**. At the very least, you should ensure that your results are presentable.
+1. Follow the instructions below while maintaining a presentable script. Ideally we ask that you make your script available as a repo on your own github account. 
+1. Send us the link to your work when you are done.
+1. Over the next step of the interview, we will ask that you present your work (assumptions, challenges, data exploration, preprocessing, training, assessment, results & discussion).
+We encourage you to present the results using a **notebook**. At the very least, you should ensure that your results are presentable. 
 <br></br>
 
 **Remember :**
-1. Make sure to **apply best practices** as you move through the examples. (data preprocessing, missing values, hyper parameter 
-search, model evaluation, result visualisation, etc.)
+1. Make sure to **apply best practices** as you move through the examples. (data preparation, preprocessing, engineering, model selection & evaluation)
+1. **Think outside of the box**. Do not satisfy yourself with a *basic data science recipe* . The power of a data scientist is to figure out a way to transform messy data into valuable insights. 
 1. **Make assumptions** where necessary, we are interested in your approach primarily.
-1. **A good story is as important as an algorithm**. We expect you to be able to communicate and present your ideas, methodology 
-and implementations. 
+1. **Leave footprints of your thought process** : What did you try? What worked/did not work? 
+1. **A good story is as important as an algorithm**. We expect you to be able to communicate and present your ideas, methodology and implementations. 
 
 **Good Luck!** 
 <br></br>
 <br></br>
 
-## Exercise 1 : Fraudulent Transactions (Classification)
-The file **fraud_prep.csv** contains credit card transactions. 
-1. Evaluate multiple classification algorithms to identify whether the transactions are fraudulent or not.
-1. Compare the performance of each model & identify the best performing one.
-1. Present how your model generalizes and performs on unseen data.
-1. Make sure to present all steps taken
-
-**BONUS Points :** Can you think of some **unsupervised** methods to accomplish this same task? If so, describe them (do not script them)
-<br></br>
-<br></br>
-
-## Exercise 2.  Crime Dataset (Regression)
-The Crime Dataset contains **128 socio-economic features** from the US 1990 Census. The target is the crime rate per community.
+## Exercise 1.  Crime Dataset (Regression)
+The Crime Dataset contains **socio-economic features** from the US 1990 Census. The target is the crime rate per community.
 
 Ref. : https://archive.ics.uci.edu/ml/machine-learning-databases/communities/communities.names
 
 Using the **crime_prep.csv** file :
-1. Identify the variables that are the most highly correlated with the target
-1. Apply either dimensionality reduction or feature selection on the dataset
-1. Evaluate multiple regression algorithms to predict the crime rate.
-1. Compare the performance of each model & identify the best performing one.
-1. Present how your model generalizes and performs on unseen data.
+1. Explore your data.
+1. Prepare your data (preprocessing, feature engineering, feature selection, dimensionality reduction, feature learning, ...)
+1. Attempt to predict the crime rate, comparing performance, and identifing the best model.
 <br></br>
 <br></br>
+
+## Exercise 2 : Fraudulent Transactions (Classification)
+The file **fraud_prep.csv** contains credit card transactions. 
+1. Explore your data.
+1. Prepare your data (preprocessing, feature engineering, feature selection, dimensionality reduction, feature learning, ...)
+1. Attempt to predict fraudulent transactions, comparing performance, and identifing the best model.
+<br></br>
+<br></br>
+
+**BONUS Point :** Can you think of methods other than **classification** to accomplish this task?
+
+<br></br>
+<br></br>
+
